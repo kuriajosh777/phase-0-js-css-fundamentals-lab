@@ -24,3 +24,17 @@ nav ul li a {
   color: white;
   text-decoration: none;
 }
+.main-content {
+  margin-top: 5em; /* Adjust this value based on the height of your navigation bar */
+  padding: 2em 1em;
+  text-align: center;
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  paragraph {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #666;
+  }
+}
