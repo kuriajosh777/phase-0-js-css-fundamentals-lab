@@ -9,7 +9,7 @@
     z-index: 1000;
 }
 .navbar:hover {
-    background-color: #7f4989;
+    background-color: #49894a;
 }
 .navbar ul {
     list-style: none;
@@ -25,6 +25,20 @@
 
 .navbar ul li a {
     color: #fff;
+    background-color: #444;
+    padding: 0.6em 1em;
+    border-radius: 999px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #7f4989;
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .main-content {
@@ -101,6 +115,8 @@ section {
     position: relative;
     bottom: 0;
     width: 100%;
-    border-radius: 100px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    line-height: 1.3;
 }
 
