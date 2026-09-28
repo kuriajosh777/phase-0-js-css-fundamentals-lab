@@ -38,3 +38,37 @@ nav ul li a {
     color: #666;
   }
 }
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 1em;
+  padding: 2em 1em;
+  margin-top: 2em;
+}
+
+.portfolio-item {
+  flex: 1 1 300px;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1em;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
